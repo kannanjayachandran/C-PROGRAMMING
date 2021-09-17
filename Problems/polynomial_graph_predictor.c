@@ -1,6 +1,4 @@
-/* A program which would predict
-the nature of a polynomial function's graph
-if we give some infos.*/
+//  A program which would predict the nature of a polynomial function's graph if we give some infos.
 
 #include <stdio.h>
 

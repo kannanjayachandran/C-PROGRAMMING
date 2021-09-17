@@ -1,17 +1,6 @@
 #include <stdio.h>
 
-int sorted(int a[], int b){
-
-        for(int j = 0; j < b; ++j){
-            if(a[j]  > a[j+1] ){
-                return 0;
-            }
-            else{
-                return 1;
-            }
-        }
-} // end of sort
-
+int sorted(int[], int);
 
 int main()
 {
@@ -37,5 +26,17 @@ int main()
 
 return 0;
 }
+
+int sorted(int a[], int b){
+
+        for(int j = 0; j < b; ++j){
+            if(a[j]  > a[j+1] ){
+                return 0;
+            }
+            else{
+                return 1;
+            }
+        }
+} // end of sort
 
 //  This program will check if the given array is sorted or not.

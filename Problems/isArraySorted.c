@@ -1,27 +1,6 @@
 #include <stdio.h>
 
-void isSort(int arr[], int b){
-
-        int i =0;
-
-       while (i < b){
-            int first = arr[i];   // Setting the first element.
-            int second = arr[i+1];  // setting the second element.
-
-                if(first > second){  // Comparing the elements for unsorted condition.
-                        printf("Not sorted");
-                    return ;
-                 }
-
-                if((first == second) || (first < second)){  // Checking if the adjacent numbers are sorted or not
-                    i++;
-                    if(i >= b){
-                        printf("Array is sorted");
-                        return;
-                }
-            }
-        }  // end of while loop.
-}  // end of isSort.
+void isSort(int[] , int);
 
 int main()
 {
@@ -47,6 +26,30 @@ int main()
 
      return 0;
 }
+
+//  function declaration
+void isSort(int arr[], int b){
+
+        int i =0;
+
+       while (i < b){
+            int first = arr[i];   // Setting the first element.
+            int second = arr[i+1];  // setting the second element.
+
+                if(first > second){  // Comparing the elements for unsorted condition.
+                        printf("Not sorted");
+                    return ;
+                 }
+
+                if((first == second) || (first < second)){  // Checking if the adjacent numbers are sorted or not
+                    i++;
+                    if(i >= b){
+                        printf("Array is sorted");
+                        return;
+                }
+            }
+        }  // end of while loop.
+}  // end of isSort.
 
 // This program checks if the array is sorted.
 

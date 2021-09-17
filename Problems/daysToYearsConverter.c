@@ -3,6 +3,19 @@
 
 #include <stdio.h>
 
+void finder(int );
+
+int main()
+{
+    int days=0;
+    printf("Enter the number of days: ");
+    scanf("%d", &days);
+
+    finder(days);  // Calling the function
+
+    return 0;
+} // end of main
+
 void finder (int days){
 
         int weeks =0;
@@ -21,16 +34,4 @@ void finder (int days){
        printf("%d Days is %d Years, %d Months, and %d Weeks", days, years, months, weeks);
        return;
 }  // end of finder
-
-
-int main()
-{
-    int days=0;
-    printf("Enter the number of days: ");
-    scanf("%d", &days);
-
-    finder(days);  // Calling the function
-
-    return 0;
-} // end of main
 

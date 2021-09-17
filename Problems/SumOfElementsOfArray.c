@@ -1,13 +1,6 @@
 #include <stdio.h>
 
-void adder (int arr[]){
-
-        int sum=0;
-        for  (int j=0; j<10; ++j){
-        sum =sum + arr[j] ;
-         }
-        printf("Sum of the elements is : %d", sum);
-}  // end of adder.
+void adder(int []);
 
 int main()
 {
@@ -26,5 +19,14 @@ int main()
 
     return 0;
 } // end of main.
+
+void adder (int arr[]){
+
+        int sum=0;
+        for  (int j=0; j<10; ++j){
+        sum =sum + arr[j] ;
+         }
+        printf("Sum of the elements is : %d", sum);
+}  // end of adder.
 
 // This program will take 10 numbers as input in an array and find the sum of those 10 numbers.
