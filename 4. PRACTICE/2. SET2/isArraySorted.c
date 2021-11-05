@@ -8,6 +8,12 @@ int main()
     int num=0;
     printf("Enter size of the array: ");
     scanf("%d", &num);
+    
+    //  Edge case checking.
+    if (num == 0 || num == 1){
+        printf("Array is sorted");
+        return 0;
+    }
 
      // Populating the array.
     int arr[num];
@@ -16,14 +22,10 @@ int main()
             scanf("%d", &arr[i]);
     }
 
-    //  Edge case checking.
-    if (num == 0 || num == 1){
-        printf("Array is sorted");
-    }
-
+   
     //  Calling the function.
     isSort(arr, num);
-
+    
      return 0;
 }
 
@@ -52,4 +54,3 @@ void isSort(int arr[], int b){
 }  // end of isSort.
 
 // This program checks if the array is sorted.
-
