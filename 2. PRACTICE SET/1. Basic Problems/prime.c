@@ -11,7 +11,7 @@ int main(void)
 
     if (num == 0 || num == 1)
     {
-        printf("%d is neither prime nor composite.", num)
+        printf("%d is neither prime nor composite.", num);
     }
 
     int flag = 1;
