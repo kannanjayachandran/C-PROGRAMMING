@@ -1,4 +1,4 @@
-//  A program which would predict the nature of a polynomial function's graph if we give some infos.
+//  A program which would predict the nature of a polynomial function's graph.
 
 #include <stdio.h>
 
@@ -10,9 +10,9 @@ int main()
     printf("Enter the leading coefficient: ");
     scanf("%d", &coe);
 
-    if (deg%2==0)
+    if (deg % 2 == 0)
     {
-        if (coe>=0)
+        if (coe >= 0)
         {
             printf("The graph would point upward left and upward right");
         }
@@ -23,7 +23,7 @@ int main()
     }
     else
     {
-        if (coe>=0)
+        if (coe >= 0)
         {
             printf("The graph would point upward right and downward left");
         }
@@ -35,5 +35,3 @@ int main()
 
     return 0;
 }
-
-
