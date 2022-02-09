@@ -1,3 +1,5 @@
+// Count the number of distinct elements in the given array.
+
 #include <stdio.h>
 
 int isDistinct(int[], int);
@@ -7,8 +9,7 @@ int main(void)
     int arr[] = {1, 3, 5, 3, 1, 5, 6, 5, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    int result = isDistinct(arr, n);
-    printf("There are %d distinct elements in the given array.", result);
+    printf("There are %d distinct elements in the given array.", isDistinct(arr, n));
 
     return 0;
 }
