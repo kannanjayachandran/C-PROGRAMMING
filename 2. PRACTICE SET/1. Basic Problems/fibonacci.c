@@ -4,12 +4,11 @@
 
 int main(void)
 {
+    int first = 0, second = 1, temp = 0, num = 0;
 
     printf("Enter the number: ");
-    int num = 0;
     scanf("%d", &num);
 
-    int first = 0, second = 1, temp = 0;
     for (int i = 2; i <= num; i++)
     {
         temp = second;

@@ -1,3 +1,5 @@
+// A program to print the ASCII value of a given character
+
 #include <stdio.h>
 int main()
 {
