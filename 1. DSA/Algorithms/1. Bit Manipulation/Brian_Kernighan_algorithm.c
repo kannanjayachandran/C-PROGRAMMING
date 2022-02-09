@@ -15,3 +15,9 @@ int main(void)
 
     return 0;
 }
+
+/*
+    Brian Kernighan's Algorithm : For counting the set bits in a number.
+
+    Time complexity : Θ(number of set bits)
+*/
