@@ -21,9 +21,11 @@ void k_bit_set(int num, int k){
 }
 
 /*
-Algorith : This would check if the k-th bit of a number is set or not.
+    Algorithm : This would check if the k-th bit of a number is set or not.
 
-Time complexity : O(1)
-Space complexity : O(1)
+    Time complexity : O(1)
+    Space complexity : O(1)
+
+    This is one of the bit-masking algorithm 
 
 */
