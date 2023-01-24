@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>C</h1>
+<h1>C-Programming</h1>
 
 ![Language](https://img.shields.io/badge/Language-C-blue.svg)
 ![Code style](https://img.shields.io/badge/Code%20Style-Standard-brightgreen.svg)
