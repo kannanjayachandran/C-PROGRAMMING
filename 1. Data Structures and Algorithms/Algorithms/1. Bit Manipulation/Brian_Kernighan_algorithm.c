@@ -19,5 +19,11 @@ int main(void)
 /*
     Brian Kernighan's Algorithm : For counting the set bits in a number.
 
-    Time complexity : Θ(number of set bits)
+    When we subtract 1 from a number the all the bits following the rightmost 
+    set of bits are inverted. Therefore if we do number & (number-1) until the 
+    number becomes zero, the number of iteration is the number of set bits.
+
+    Time complexity : Θ(number of set bits) or O(log N)
+
+    Space complexity : O(1)
 */
