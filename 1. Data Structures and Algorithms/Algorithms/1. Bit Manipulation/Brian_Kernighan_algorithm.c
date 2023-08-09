@@ -23,7 +23,7 @@ int main(void)
     set of bits are inverted. Therefore if we do number & (number-1) until the 
     number becomes zero, the number of iteration is the number of set bits.
 
-    Time complexity : Θ(number of set bits) or O(log N)
+    Time complexity : Θ(number of set bits) or O(log(n))
 
     Space complexity : O(1)
 */
